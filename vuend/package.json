@@ -1,0 +1,31 @@
+{
+  "name": "vuend",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@amap/amap-jsapi-loader": "^1.0.1",
+    "bootstrap-icons": "^1.13.1",
+    "lucide-vue-next": "^1.0.0",
+    "marked": "^17.0.5",
+    "node-vibrant": "^4.0.4",
+    "pinia": "^3.0.4",
+    "three": "^0.183.2",
+    "vue": "^3.5.31",
+    "vue-router": "^5.0.4",
+    "wavesurfer.js": "^7.12.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.5",
+    "vite": "^8.0.3",
+    "vite-plugin-vue-devtools": "^8.1.1"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}
